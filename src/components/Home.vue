@@ -2,7 +2,7 @@
   <v-container-fluid>
     <v-card dark height="600px">
       <div id="header">
-        <v-container grid-list-md>
+        <v-container grid-list-md class="hidden-sm-and-down">
           <v-layout align-end justify-center row wrap text-xs-center fill-height>
             <v-flex xs12 sm6 md3 lg3>
               <v-card id="blog" height="240" dark color="#D8DADE" style="border-radius: 3px;" class="mb-3">
@@ -28,10 +28,10 @@
         </v-container>
       </div>
     </v-card>
-    <v-container grid-list-md>
+    <v-container grid-list-md style="margin-top:200px;">
       <v-layout row wrap justify-space-between justify-center align-content-space-around>
         <v-flex xs12 sm6 md4 lg4>
-          <v-card width="100%" dark color="transparent" to="" flat class="mt-3 mb-3">
+          <v-card width="100%" dark color="transparent" to="" flat class="mt-3">
             <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
@@ -42,7 +42,7 @@
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md4 lg4>
-          <v-card width="100%" dark color="transparent" to="" flat class="mt-3 mb-3">
+          <v-card width="100%" dark color="transparent" to="" flat class="mt-3">
             <div>
               <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             </div>
@@ -55,7 +55,7 @@
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md4 lg4>
-          <v-card width="100%" dark color="transparent" to="" flat class="mt-3 mb-3">
+          <v-card width="100%" dark color="transparent" to="" flat class="mt-3">
             <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
@@ -67,11 +67,13 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <v-layout class="text-xs-center">
-      <v-flex xs4>
-        <v-divider style="width:329px; background-color:#3D424E;" class="mt-3 mb-3"></v-divider>
-      </v-flex>
-    </v-layout>
+    <v-container style="width:329px;">
+      <v-layout>
+        <v-flex xs12>
+          <v-divider style="background-color:#3D424E;" class="mt-3 mb-3"></v-divider>
+        </v-flex>
+      </v-layout>
+    </v-container>
     <v-container style="width:702px; color: #B9BCC1;">
       <p>
         Welcome to Kirirom Institute of Technology. Kirirom Institute of Technology was established in 2014 in Kirirom. Mr. Takeshi Izuka, the founder of KIT believes in the potential of Cambodian students thus made him decide to establish the institute. Currently, the institute caters to Cambodian students. However, the school will also be open for other nationals by 2016 who wish to experience the KIT education approach. Presently, the institute offers Software Engineering, but in the next academic year we plan to add more courses which are suitable to the needs of the fast growing economy,
@@ -85,11 +87,13 @@
         Being situated on top of Kirirom Mountain, the environment provides a quiet, and conducive atmosphere for learning.
       </p>
     </v-container>
-    <v-layout class="text-xs-center">
-      <v-flex xs4>
-        <v-divider style="width:329px; background-color:#3D424E;" class="mt-3 mb-3"></v-divider>
-      </v-flex>
-    </v-layout>
+    <v-container style="width:329px;">
+      <v-layout>
+        <v-flex xs12>
+          <v-divider style="background-color:#3D424E;" class="mt-3 mb-3"></v-divider>
+        </v-flex>
+      </v-layout>
+    </v-container>
     <v-container>
       <v-card hover dark style="border-radius: 3px;" width="100%">
         <v-img :src="corporateRetreat" height="300px" position="top" class="mt-4 pa-1 mb-4" width="100%">
@@ -143,6 +147,7 @@ export default {
   #blog{
     width: 100%;  
     top: 90%;
+    position: absolute;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -152,6 +157,7 @@ export default {
   #blog{
     width: 202px;
     top: 90%;
+    position: absolute;
   }
 }
 html {
