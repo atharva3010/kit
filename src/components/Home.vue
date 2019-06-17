@@ -31,7 +31,7 @@
     <v-container grid-list-md style="margin-top:200px;">
       <v-layout row wrap justify-space-between justify-center align-content-space-around>
         <v-flex xs12 sm6 md4 lg4>
-          <v-card width="100%" dark color="transparent" to="" flat class="mt-3">
+          <v-card width="100%" dark color="transparent" to="/admission/Software-Engineering" flat class="mt-3">
             <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
@@ -42,7 +42,7 @@
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md4 lg4>
-          <v-card width="100%" dark color="transparent" to="" flat class="mt-3">
+          <v-card width="100%" dark color="transparent" to="/admission/International-Leadership" flat class="mt-3">
             <div>
               <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             </div>
@@ -55,7 +55,7 @@
           </v-card>
         </v-flex>
         <v-flex xs12 sm6 md4 lg4>
-          <v-card width="100%" dark color="transparent" to="" flat class="mt-3">
+          <v-card width="100%" dark color="transparent" to="/admission/Hospitality" flat class="mt-3">
             <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
