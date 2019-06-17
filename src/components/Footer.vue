@@ -13,21 +13,21 @@
             </ul>
           </v-flex>
           <v-flex xs6 sm6 md3 lg3 class="mb-3">
-            <h3>Learn</h3>
-            <br>
-            <ul style="list-style:none; padding:0; margin:0;">
-              <li>Community Outreach</li>
-              <li>Our Scholarship Program</li>
-              <li>Proudly Powered by KIT</li>
-            </ul>
-          </v-flex>
-          <v-flex xs6 sm6 md3 lg3 class="mb-3">
             <h3>Invest</h3>
             <br>
             <ul style="list-style:none; padding:0; margin:0;">
               <li>Lease a Property</li>
               <li>Collaborate</li>
               <li>Partnerm</li>
+            </ul>
+          </v-flex>
+          <v-flex xs12 sm6 md3 lg3 class="mb-3">
+            <h3>Learn</h3>
+            <br>
+            <ul style="list-style:none; padding:0; margin:0;">
+              <li>Community Outreach</li>
+              <li>Our Scholarship Program</li>
+              <li>Proudly Powered by KIT</li>
             </ul>
           </v-flex>
         </v-layout>
