@@ -1,6 +1,6 @@
 <template>
   <v-container-fluid>
-    <v-card dark>
+    <v-card dark height="600px">
       <div id="header">
         <v-container grid-list-md>
           <v-layout align-end justify-center row wrap text-xs-center fill-height>
@@ -28,11 +28,11 @@
         </v-container>
       </div>
     </v-card>
-    <v-container grid-list-md align-content-space-around>
-      <v-layout row wrap justify-space-between justify-center>
+    <v-container grid-list-md>
+      <v-layout row wrap justify-space-between justify-center align-content-space-around>
         <v-flex xs12 sm6 md4 lg4>
           <v-card width="100%" dark color="transparent" to="" flat class="mt-3 mb-3">
-            <v-img src="" height="150px"></v-img>
+            <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
                 <span style="color: #FFFFFF; font-size: 17px; line-height: 27px;"><h3>Software Engineering</h3></span>
@@ -44,7 +44,7 @@
         <v-flex xs12 sm6 md4 lg4>
           <v-card width="100%" dark color="transparent" to="" flat class="mt-3 mb-3">
             <div>
-              <v-img src="" height="150px"></v-img>
+              <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             </div>
             <v-layout align-start>
               <v-card-text class="pa-1">
@@ -56,7 +56,7 @@
         </v-flex>
         <v-flex xs12 sm6 md4 lg4>
           <v-card width="100%" dark color="transparent" to="" flat class="mt-3 mb-3">
-            <v-img src="" height="150px"></v-img>
+            <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
                 <span style="color: #FFFFFF; font-size: 17px; line-height: 27px;"><h3>Hospitality</h3></span>
@@ -84,6 +84,29 @@
         <br>
         Being situated on top of Kirirom Mountain, the environment provides a quiet, and conducive atmosphere for learning.
       </p>
+    </v-container>
+    <v-layout class="text-xs-center">
+      <v-flex xs4>
+        <v-divider style="width:329px; background-color:#3D424E;" class="mt-3 mb-3"></v-divider>
+      </v-flex>
+    </v-layout>
+    <v-container>
+      <v-card hover dark style="border-radius: 3px;" width="100%">
+        <v-img :src="corporateRetreat" height="300px" position="top" class="mt-4 pa-1 mb-4" width="100%">
+          <v-layout row wrap justify-center text-xs-center>
+            <v-flex xs12 align-center >
+              <h1 style="color: #FFFFFF; font-size: 36px; text-align: center; margin-top:50px; margin-bottom:50px;">Sponsor</h1>
+            </v-flex>
+          </v-layout>
+          <v-layout column align-center justify-center>
+            <v-flex xs12 md6 sm4 lg6>
+              <v-btn dark large depressed style="background: #AC3931; box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; text-transform:capitalize" color="#4B7F52">
+                Sponsor <v-icon>keyboard_arrow_right</v-icon>
+              </v-btn>
+            </v-flex>
+          </v-layout>
+        </v-img>
+      </v-card>
     </v-container>
   </v-container-fluid>
 </template>
@@ -120,7 +143,6 @@ export default {
   #blog{
     width: 100%;  
     top: 90%;
-    position: absolute;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -130,7 +152,6 @@ export default {
   #blog{
     width: 202px;
     top: 90%;
-    position: absolute;
   }
 }
 html {
