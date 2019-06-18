@@ -7,27 +7,27 @@
             <h3>Engage</h3>
             <br>
             <ul style="list-style:none; padding:0; margin:0;">
-              <li>Contact</li>
-              <li>About</li>
-              <li>Book Now</li>
+              <li class="mb-2"><router-link to="/Contact" style="text-decoration:none; color:#D8DADE;">Contact</router-link></li>
+              <li class="mb-2">About</li>
+              <li class="mb-2">Book Now</li>
             </ul>
           </v-flex>
           <v-flex xs6 sm6 md3 lg3 class="mb-3">
             <h3>Invest</h3>
             <br>
             <ul style="list-style:none; padding:0; margin:0;">
-              <li>Lease a Property</li>
-              <li>Collaborate</li>
-              <li>Partnerm</li>
+              <li class="mb-2">Lease a Property</li>
+              <li class="mb-2">Collaborate</li>
+              <li class="mb-2">Partner</li>
             </ul>
           </v-flex>
           <v-flex xs12 sm6 md3 lg3 class="mb-3">
             <h3>Learn</h3>
             <br>
             <ul style="list-style:none; padding:0; margin:0;">
-              <li>Community Outreach</li>
-              <li>Our Scholarship Program</li>
-              <li>Proudly Powered by KIT</li>
+              <li class="mb-2">Community Outreach</li>
+              <li class="mb-2">Our Scholarship Program</li>
+              <li class="mb-2">Proudly Powered by KIT</li>
             </ul>
           </v-flex>
         </v-layout>
