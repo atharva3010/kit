@@ -5,7 +5,8 @@
         <h1 style="font-size: 36px; line-height: 49px; color: #FFFFFF;" class="mt-4 mb-4">
           Contact
         </h1>
-        <v-form>
+        <v-form name="Contact" method="post" netlify ref="form" action="/thanks" data-netlify="true">
+          <input type="hidden" name="form-name" value="Contact"/>
           <v-flex xs12 class="mt-4 mb-4">
             <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
               Name
@@ -51,8 +52,14 @@
             ></textarea>
           </v-flex>
           <v-flex xs12 class="mt-4 mb-4">
-            <v-btn dark block large depressed style="padding:0; margin:0; background: #AC3931; box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; text-transform:capitalize; max-width:270px; font-size: 16px; height:50px;" 
+            <v-btn 
+              dark 
+              block 
+              large 
+              depressed 
+              style="padding:0; margin:0; background: #AC3931; box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; text-transform:capitalize; max-width:270px; font-size: 16px; height:50px;" 
               color="#4B7F52"
+              type="submit"
             >
               Send<v-icon>keyboard_arrow_right</v-icon>
             </v-btn>

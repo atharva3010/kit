@@ -5,10 +5,10 @@
     <v-flex xs12 md6 sm6 lg6 class="hidden-sm-and-down">
       <v-card dark color="#191C21" style="color:#B9BCC1; top:-100px;" height="100%">
         <v-card-text class="headline font-weight-bold display-4 text-xs-center">
-          <span style="color:#B9BCC1; margin:20px;">Congratulations, your booking has been successfully made.</span>
+          <span style="color:#B9BCC1; margin:20px;">Congratulations, your submission has been successfully made.</span>
         </v-card-text>
         <v-card-text class="headline font-weight-bold display-4 text-xs-center">
-          <span style="color:#B9BCC1; margin:20px;"> Thank you for booking with us. We look forward to hosting you.</span>
+          <span style="color:#B9BCC1; margin:20px;"> Thank you for contacting us. We will get back to you soon.</span>
         </v-card-text>
           <v-btn flat to="/" class="mb-3" outline style="border: 1px solid #FFFFFF; box-sizing: border-box; box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; max-width:340px; text-transform:capitalize">
             Go Back Home
