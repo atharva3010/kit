@@ -2,11 +2,11 @@
   <v-container>
     <v-layout row wrap>
       <v-flex xs12 md6>
-        <h1 style="font-size: 36px; line-height: 49px; color: #FFFFFF" class="mt-4 mb-3">
+        <h1 style="font-size: 36px; line-height: 49px; color: #FFFFFF;" class="mt-4 mb-4">
           Contact
         </h1>
         <v-form>
-          <v-flex xs12 class="mt-4 mb-3">
+          <v-flex xs12 class="mt-4 mb-4">
             <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
               Name
             </h2>
@@ -17,7 +17,7 @@
               name="name"
             >
           </v-flex>
-          <v-flex xs12 class="mt-4 mb-3">
+          <v-flex xs12 class="mt-4 mb-4">
             <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
               Phone Number
             </h2>
@@ -28,7 +28,7 @@
               name="phone"
             >
           </v-flex>
-          <v-flex xs12 class="mt-4 mb-3">
+          <v-flex xs12 class="mt-4 mb-4">
             <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
               E-Mail
             </h2>
@@ -39,7 +39,7 @@
               name="email"
             >
           </v-flex>
-          <v-flex xs12 class="mt-4 mb-3">
+          <v-flex xs12 class="mt-4 mb-4">
             <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
               Message
             </h2>
@@ -50,7 +50,102 @@
               name="message"
             ></textarea>
           </v-flex>
+          <v-flex xs12 class="mt-4 mb-4">
+            <v-btn dark block large depressed style="padding:0; margin:0; background: #AC3931; box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; text-transform:capitalize; max-width:270px; font-size: 16px; height:50px;" 
+              color="#4B7F52"
+            >
+              Send<v-icon>keyboard_arrow_right</v-icon>
+            </v-btn>
+          </v-flex>
         </v-form>
+      </v-flex>
+    </v-layout>
+    <v-layout row wrap>
+      <v-flex xs12 md6>
+        <v-card 
+          width="300px" 
+          color="#191C21" 
+          dark
+          class="hidden-sm-and-down"
+          style="position:absolute; top:10%; left:59%; border: 1px solid #E1E7ED; box-sizing: border-box; border-radius: 3px;">
+          <v-card-text style="margin:10px; margin-right:15px;">
+            <v-flex xs12>
+              <h1 style="font-size: 28px; color: #D8DADE;">
+                Contact
+              </h1>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                Kirirom Institute of Technology
+              </p>
+              <h2 style="font-size: 20px; color: #D8DADE;">
+                Address
+              </h2>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                #253, 255 E0, 
+                <br> 
+                Borey BipupThmey-Boeung Chhouk Road 2011 (Ouknhar Tri Heng Road), 
+                <br>
+                Street E; Khan Sen Sok, 
+                <br>
+                Phnom Penh, Cambodia
+              </p>
+              <h2 style="font-size: 20px; color: #D8DADE;">
+                E-Mail
+              </h2>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                <a href="mailto:leo@asiato.asia" style="text-decoration:none; color: #B9BCC1;">leo@asiato.asia</a>
+              </p>
+              <h2 style="font-size: 20px; color: #D8DADE;">
+                Phone Number
+              </h2>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                <a href="tel:+85578777348" style="text-decoration:none; color: #B9BCC1;">+(855) 78 777 348</a>
+              </p>
+            </v-flex>
+          </v-card-text>
+        </v-card>
+      </v-flex>
+      <v-flex xs12>
+        <v-card 
+          width="100%" 
+          color="#191C21" 
+          dark
+          class="hidden-md-and-up mb-4 mt-4"
+          style="border: 1px solid #E1E7ED; box-sizing: border-box; border-radius: 3px;">
+          <v-card-text>
+            <v-flex xs12>
+              <h1 style="font-size: 28px; color: #D8DADE;">
+                Contact
+              </h1>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                Kirirom Institute of Technology
+              </p>
+              <h2 style="font-size: 20px; color: #D8DADE;">
+                Address
+              </h2>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                #253, 255 E0, 
+                <br> 
+                Borey BipupThmey-Boeung Chhouk Road 2011 (Ouknhar Tri Heng Road), 
+                <br>
+                Street E; Khan Sen Sok, 
+                <br>
+                Phnom Penh, Cambodia
+              </p>
+              <h2 style="font-size: 20px; color: #D8DADE;">
+                E-Mail
+              </h2>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                <a href="mailto:leo@asiato.asia" style="text-decoration:none; color: #B9BCC1;">leo@asiato.asia</a>
+              </p>
+              <h2 style="font-size: 20px; color: #D8DADE;">
+                Phone Number
+              </h2>
+              <p style="font-size: 14px; color: #B9BCC1;">
+                <a href="tel:+85578777348" style="text-decoration:none; color: #B9BCC1;">+(855) 78 777 348</a>
+              </p>
+            </v-flex>
+          </v-card-text>
+        </v-card>
       </v-flex>
     </v-layout>
   </v-container>
