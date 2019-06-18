@@ -118,37 +118,35 @@
           dark
           class="hidden-md-and-up mb-4 mt-4"
           style="border: 1px solid #E1E7ED; box-sizing: border-box; border-radius: 3px;">
-          <v-card-text>
+          <v-card-text style="margin:10px; margin-right:15px;">
             <v-flex xs12>
               <h1 style="font-size: 28px; color: #D8DADE;">
                 Contact
               </h1>
-              <p style="font-size: 14px; color: #B9BCC1;">
-                Kirirom Institute of Technology
+              <p style="font-size: 14px; color: #B9BCC1;" class="ma-1">Kirirom Institute of Technology
               </p>
+            </v-flex>
+            <v-flex xs12>
               <h2 style="font-size: 20px; color: #D8DADE;">
                 Address
               </h2>
-              <p style="font-size: 14px; color: #B9BCC1;">
-                #253, 255 E0, 
-                <br> 
-                Borey BipupThmey-Boeung Chhouk Road 2011 (Ouknhar Tri Heng Road), 
-                <br>
-                Street E; Khan Sen Sok, 
-                <br>
-                Phnom Penh, Cambodia
+              <p style="font-size: 14px; color: #B9BCC1;" class="ma-1">#253, 255 E0, Borey BipupThmey-Boeung Chhouk Road 2011 (Ouknhar Tri Heng Road), Street E; Khan Sen Sok, Phnom Penh, Cambodia
               </p>
+            </v-flex>
+            <v-flex xs12>
               <h2 style="font-size: 20px; color: #D8DADE;">
                 E-Mail
               </h2>
-              <p style="font-size: 14px; color: #B9BCC1;">
+              <p style="font-size: 14px; color: #B9BCC1;" class="ma-1">
                 <a href="mailto:leo@asiato.asia" style="text-decoration:none; color: #B9BCC1;">leo@asiato.asia</a>
               </p>
+            </v-flex>
+            <v-flex xs12>
               <h2 style="font-size: 20px; color: #D8DADE;">
                 Phone Number
               </h2>
-              <p style="font-size: 14px; color: #B9BCC1;">
-                <a href="tel:+85578777348" style="text-decoration:none; color: #B9BCC1;">+(855) 78 777 348</a>
+              <p style="font-size: 14px; color: #B9BCC1;" class="ma-1">
+                <a href="tel:+(855)78777348" style="text-decoration:none; color: #B9BCC1;">+(855) 78 777 348</a>
               </p>
             </v-flex>
           </v-card-text>
