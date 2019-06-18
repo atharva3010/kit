@@ -83,7 +83,7 @@
       </p>
       <p>
         We provide full scholarship to able Cambodian students who can't afford to pay tuition fees. With our sponsorship program, the students will have the opportunity to live and work abroad after successfully completing the course.
-        <br>
+      <br>
         Being situated on top of Kirirom Mountain, the environment provides a quiet, and conducive atmosphere for learning.
       </p>
     </v-container>
@@ -96,7 +96,7 @@
     </v-container>
     <v-container>
       <v-card hover dark style="border-radius: 3px;" width="100%">
-        <v-img :src="corporateRetreat" height="300px" position="top" class="mt-4 pa-1 mb-4" width="100%">
+        <v-img src="" height="300px" position="top" class="mt-4 pa-1 mb-4" width="100%">
           <v-layout row wrap justify-center text-xs-center>
             <v-flex xs12 align-center >
               <h1 style="color: #FFFFFF; font-size: 36px; text-align: center; margin-top:50px; margin-bottom:50px;">Sponsor</h1>
