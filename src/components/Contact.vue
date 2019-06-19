@@ -73,9 +73,9 @@
           width="300px" 
           color="#191C21" 
           dark
-          class="hidden-sm-and-down"
+          class="hidden-sm-and-down pa-1"
           style="position:absolute; top:10%; left:59%; border: 1px solid #E1E7ED; box-sizing: border-box; border-radius: 3px;">
-          <v-card-text style="margin:10px; margin-right:15px;">
+          <v-card-text>
             <!-- <v-flex xs12>
               <h1 style="font-size: 28px; color: #D8DADE;">
                 Contact
@@ -84,7 +84,7 @@
                 Kirirom Institute of Technology
               </p>
             </v-flex> -->
-            <v-flex xs12>
+            <v-flex xs12 class="mb-4">
               <h2 style="font-size: 20px; color: #D8DADE;">
                 Address
               </h2>
@@ -96,9 +96,13 @@
                 Street E; Khan Sen Sok, 
                 <br>
                 Phnom Penh, Cambodia
+                <br>
+                <a href="https://www.google.com/maps/dir//kirirom+institute+of+technology+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3108e8f0cdf32b35:0xadc8d363bd3d1c6c?sa=X&ved=2ahUKEwjEnP_f4PTiAhVXAogKHRgZAh8Q9RcwEnoECAsQDg">
+                Get Directions
+                </a>
               </p>
             </v-flex>
-            <v-flex xs12>
+            <v-flex xs12 class="mb-4">
               <h2 style="font-size: 20px; color: #D8DADE;">
                 E-Mail
               </h2>
@@ -122,7 +126,7 @@
           width="100%" 
           color="#191C21" 
           dark
-          class="hidden-md-and-up mb-4 mt-4"
+          class="hidden-md-and-up mb-4 mt-4 pa-1"
           style="border: 1px solid #E1E7ED; box-sizing: border-box; border-radius: 3px;">
           <v-card-text>
             <!-- <v-flex xs12>
@@ -132,14 +136,18 @@
               <p style="font-size: 14px; color: #B9BCC1;" class="ma-1">Kirirom Institute of Technology
               </p>
             </v-flex> -->
-            <v-flex xs12>
+            <v-flex xs12 class="mb-4">
               <h2 style="font-size: 20px; color: #D8DADE;">
                 Address
               </h2>
               <p style="font-size: 14px; color: #B9BCC1;">#253, 255 E0, Borey BipupThmey-Boeung Chhouk Road 2011 (Ouknhar Tri Heng Road), Street E; Khan Sen Sok, Phnom Penh, Cambodia
+              <br>
+              <a href="https://www.google.com/maps/dir//kirirom+institute+of+technology+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3108e8f0cdf32b35:0xadc8d363bd3d1c6c?sa=X&ved=2ahUKEwjEnP_f4PTiAhVXAogKHRgZAh8Q9RcwEnoECAsQDg">
+              Get Directions
+              </a>
               </p>
             </v-flex>
-            <v-flex xs12>
+            <v-flex xs12 class="mb-4">
               <h2 style="font-size: 20px; color: #D8DADE;">
                 E-Mail
               </h2>
