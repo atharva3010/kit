@@ -2,25 +2,25 @@
   <v-container-fluid>
     <v-card dark height="600px">
       <div id="header">
-        <v-container grid-list-md class="hidden-sm-and-down">
-          <v-layout align-end justify-center row wrap text-xs-center fill-height>
-            <v-flex xs12 sm6 md3 lg3>
-              <v-card id="blog" height="240" dark color="#D8DADE" style="border-radius: 3px;" class="mb-3">
+        <v-container grid-list-md align-content-space-around class="hidden-md-and-down">
+          <v-layout align-end row wrap justify-space-between justify-center text-xs-center fill-height>
+            <v-flex xs12 sm6 md6 lg3>
+              <v-card dark color="#D8DADE" style="width: 202px; top: 90%; position: absolute; border-radius: 3px; min-height:240px;" class="mb-3">
                 <v-card-text><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">Admission</h2></v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md3 lg3>
-              <v-card id="blog" height="240" dark color="#D8DADE" style="border-radius: 3px;" class="mb-3">
+            <v-flex xs12 sm6 md6 lg3>
+              <v-card dark color="#D8DADE" style="width: 202px; top: 90%; position: absolute; border-radius: 3px; min-height:240px;" class="mb-3">
                 <v-card-text><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">Housing</h2></v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md3 lg3>
-              <v-card id="blog" height="240" dark color="#D8DADE" style="border-radius: 3px;" class="mb-3">
+            <v-flex xs12 sm6 md6 lg3>
+              <v-card dark color="#D8DADE" style="width: 202px; top: 90%; position: absolute; border-radius: 3px; min-height:240px;" class="mb-3">
                 <v-card-text><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">Programs</h2></v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md3 lg3>
-              <v-card id="blog" height="240" dark color="#D8DADE" style="border-radius: 3px;" class="mb-3">
+            <v-flex xs12 sm6 md6 lg3>
+              <v-card dark color="#D8DADE" style="width: 202px; top: 90%; position: absolute; border-radius: 3px; min-height:240px;" class="mb-3">
                 <v-card-text><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">News & Events</h2></v-card-text>
               </v-card>
             </v-flex>
@@ -32,7 +32,7 @@
       <v-layout row wrap justify-space-between justify-center align-content-space-around>
         <v-flex xs12 sm6 md4 lg4>
           <v-card width="100%" dark color="transparent" to="/admission/Software-Engineering" flat class="mt-3">
-            <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
+            <v-img alt="" src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
                 <span style="color: #FFFFFF; font-size: 17px; line-height: 27px;"><h3>Software Engineering</h3></span>
@@ -44,7 +44,7 @@
         <v-flex xs12 sm6 md4 lg4>
           <v-card width="100%" dark color="transparent" to="/admission/International-Leadership" flat class="mt-3">
             <div>
-              <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
+              <v-img alt="" src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             </div>
             <v-layout align-start>
               <v-card-text class="pa-1">
@@ -56,7 +56,7 @@
         </v-flex>
         <v-flex xs12 sm6 md4 lg4>
           <v-card width="100%" dark color="transparent" to="/admission/Hospitality" flat class="mt-3">
-            <v-img src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
+            <v-img alt="" src="https://res.cloudinary.com/die9ji2vn/image/upload/v1560155423/top_image_kyv74r.jpg" height="150px"></v-img>
             <v-layout align-start>
               <v-card-text class="pa-1">
                 <span style="color: #FFFFFF; font-size: 17px; line-height: 27px;"><h3>Hospitality</h3></span>
@@ -135,29 +135,15 @@ export default {
   .container{
     max-width: 292px;
   }
-  #blog{
-    width: 100%;
-    height: 56.25%;
-  }
 }
 @media only screen and (min-width: 768px) {
   .container{
     max-width: 600px;
   }
-  #blog{
-    width: 100%;  
-    top: 90%;
-    position: absolute;
-  }
 }
 @media only screen and (min-width: 1024px) {
   .container{
     max-width: 900px;
-  }
-  #blog{
-    width: 202px;
-    top: 90%;
-    position: absolute;
   }
 }
 html {
