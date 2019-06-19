@@ -103,7 +103,7 @@
                 E-Mail
               </h2>
               <p style="font-size: 14px; color: #B9BCC1;">
-                <a href="mailto:leo@asiato.asia" style="text-decoration:none; color: #B9BCC1;">leo@asiato.asia</a>
+                <a href="mailto:leo@asiato.asia">leo@asiato.asia</a>
               </p>
             </v-flex>
             <v-flex xs12>
@@ -111,7 +111,7 @@
                 Phone Number
               </h2>
               <p style="font-size: 14px; color: #B9BCC1;">
-                <a href="tel:+85578777348" style="text-decoration:none; color: #B9BCC1;">+(855) 78 777 348</a>
+                <a href="tel:+85578777348">+(855) 78 777 348</a>
               </p>
             </v-flex>
           </v-card-text>
@@ -124,7 +124,7 @@
           dark
           class="hidden-md-and-up mb-4 mt-4"
           style="border: 1px solid #E1E7ED; box-sizing: border-box; border-radius: 3px;">
-          <v-card-text style="margin:10px; margin-right:15px;">
+          <v-card-text>
             <!-- <v-flex xs12>
               <h1 style="font-size: 28px; color: #D8DADE;">
                 Contact
@@ -144,7 +144,7 @@
                 E-Mail
               </h2>
               <p style="font-size: 14px; color: #B9BCC1;">
-                <a href="mailto:leo@asiato.asia" style="text-decoration:none; color: #B9BCC1;">leo@asiato.asia</a>
+                <a href="mailto:leo@asiato.asia">leo@asiato.asia</a>
               </p>
             </v-flex>
             <v-flex xs12>
@@ -152,7 +152,7 @@
                 Phone Number
               </h2>
               <p style="font-size: 14px; color: #B9BCC1;">
-                <a href="tel:+(855)78777348" style="text-decoration:none; color: #B9BCC1;">+(855) 78 777 348</a>
+                <a href="tel:+(855)78777348">+(855) 78 777 348</a>
               </p>
             </v-flex>
           </v-card-text>
