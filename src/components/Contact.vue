@@ -5,51 +5,61 @@
         <h1 style="font-size: 36px; line-height: 49px; color: #FFFFFF;" class="mt-4 mb-4">
           Contact
         </h1>
-        <v-form name="Contact" method="post" netlify ref="form" action="/thanks" data-netlify="true">
+        <v-form name="Contact" method="post" netlify ref="form" action="/thanks" v-model="valid" data-netlify="true">
           <input type="hidden" name="form-name" value="Contact"/>
-          <v-flex xs12 class="mt-4 mb-4">
-            <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
-              Name
-            </h2>
-            <input 
-              style="border: 1px solid #3D424E; box-sizing: border-box; border-radius: 3px; height:50px; max-width:341px; width:100%; font-size: 16px; line-height: 22px; color: #B9BCC1; padding:17px;"
+          <v-flex xs12>
+            <v-text-field
               v-model="name"
-              placeholder="Full Name"
+              outline
+              label="Full Name"
               name="name"
+              color="#B9BCC1"
+              required
+              dark
+              :rules="nameRules"
             >
+              <v-icon slot="append" color="#B9BCC1">person</v-icon>
+            </v-text-field>
           </v-flex>
-          <v-flex xs12 class="mt-4 mb-4">
-            <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
-              Phone Number
-            </h2>
-            <input 
-              style="border: 1px solid #3D424E; box-sizing: border-box; border-radius: 3px; height:50px; max-width:341px; width:100%; font-size: 16px; line-height: 22px; color: #B9BCC1; padding:17px;"
-              v-model="phone"
-              placeholder="Phone Number"
-              name="phone"
-            >
-          </v-flex>
-          <v-flex xs12 class="mt-4 mb-4">
-            <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
-              E-Mail
-            </h2>
-            <input 
-              style="border: 1px solid #3D424E; box-sizing: border-box; border-radius: 3px; height:50px; max-width:341px; width:100%; font-size: 16px; line-height: 22px; color: #B9BCC1; padding:17px;"
+          <v-flex xs12>
+            <v-text-field
               v-model="email"
-              placeholder="E-Mail"
+              outline
+              color="#B9BCC1"
+              label="E-Mail"
               name="email"
+              required
+              dark
+              :rules="emailRules"
             >
+            <v-icon slot="append" color="#B9BCC1">email</v-icon>
+            </v-text-field>
           </v-flex>
-          <v-flex xs12 class="mt-4 mb-4">
-            <h2 style="font-size: 20px; line-height: 27px; color: #D8DADE;" class="mt-3 mb-3">
-              Message
-            </h2>
-            <textarea 
-              style="border: 1px solid #3D424E; box-sizing: border-box; border-radius: 3px; height:128px; max-width:500px; width:100%; font-size: 16px; line-height: 22px; color: #B9BCC1; padding:17px;"
+          <v-flex xs12>
+            <v-text-field
+              v-model="phone"
+              outline
+              label="Phone Number"
+              name="phone"
+              color="#B9BCC1"
+              required
+              dark
+              :rules="nameRules"
+            >
+              <v-icon slot="append" color="#B9BCC1">local_phone</v-icon>
+            </v-text-field>
+          </v-flex>
+          <v-flex xs12 class="mb-4">
+            <v-textarea
+              outline
+              hide-details
+              dark
               v-model="message"
-              placeholder="Write here..."
+              color="#B9BCC1"
               name="message"
-            ></textarea>
+              label="Message"
+            >
+            </v-textarea>
           </v-flex>
           <v-flex xs12 class="mt-4 mb-4">
             <v-btn 
@@ -57,9 +67,10 @@
               block 
               large 
               depressed 
-              style="padding:0; margin:0; background: #AC3931; box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; text-transform:capitalize; max-width:270px; font-size: 16px; height:50px;" 
+              style="padding:0; margin:0; background: #AC3931; box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 4px; text-transform:capitalize; font-size: 16px; height:74px;" 
               color="#4B7F52"
               type="submit"
+              :disabled="!valid"
             >
               Send<v-icon>keyboard_arrow_right</v-icon>
             </v-btn>
@@ -174,10 +185,21 @@
 export default {
   data(){
     return{
+      valid: false,
       name: '',
       email: '',
       phone: '',
       message: '',
+      nameRules: [
+        v => !!v || 'Name is required',
+      ],
+      emailRules: [
+        v => !!v || 'E-mail is required',
+        v => /.+@.+/.test(v) || 'E-mail must be valid'
+      ],
+      phoneRules: [
+        v => !!v || 'Phone no. is required',
+      ],
     }
   }
 }
