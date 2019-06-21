@@ -2,7 +2,7 @@
   <v-container-fluid>
     <v-card dark height="600px">
       <div id="header">
-        <v-container grid-list-md align-content-space-around class="hidden-md-and-down">
+        <!-- <v-container grid-list-md align-content-space-around class="hidden-sm-and-down">
           <v-layout align-end row wrap justify-space-between justify-center text-xs-center fill-height>
             <v-flex xs12 sm6 md6 lg3>
               <v-card dark color="#D8DADE" style="width: 202px; top: 90%; position: absolute; border-radius: 3px; min-height:240px;" class="mb-3">
@@ -25,6 +25,22 @@
               </v-card>
             </v-flex>
           </v-layout>
+        </v-container> -->
+        <v-container grid-list-md align-content-space-around>
+          <carousel loop dots :responsive="{0:{items:1,nav:false},600:{items:3,nav:false}, 1000:{items:4, nav:false}}" style="margin-top:500px; width:100%;">
+            <v-card dark color="#D8DADE" style="border-radius: 3px; min-height:240px;" class="ma-1">
+              <v-card-text class="text-xs-center"><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">Admission</h2></v-card-text>
+            </v-card>
+            <v-card dark color="#D8DADE" style="border-radius: 3px; min-height:240px;" class="ma-1">
+              <v-card-text class="text-xs-center"><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">Housing</h2></v-card-text>
+            </v-card>
+            <v-card dark color="#D8DADE" style="border-radius: 3px; min-height:240px;" class="ma-1">
+              <v-card-text class="text-xs-center"><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">Programs</h2></v-card-text>
+            </v-card>
+            <v-card dark color="#D8DADE" style="border-radius: 3px; min-height:240px;" class="ma-1">
+              <v-card-text class="text-xs-center"><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">News & Events</h2></v-card-text>
+            </v-card>
+          </carousel>
         </v-container>
       </div>
     </v-card>
@@ -116,8 +132,19 @@
 </template>
 
 <script>
-export default {
 
+import carousel from 'vue-owl-carousel'
+
+export default {
+  components: { 
+    carousel 
+  },
+  
+  data(){
+    return{
+
+    }
+  }
 }
 </script>
 
