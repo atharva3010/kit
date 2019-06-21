@@ -27,7 +27,7 @@
           </v-layout>
         </v-container> -->
         <v-container grid-list-md align-content-space-around>
-          <carousel loop dots :responsive="{0:{items:1,nav:false},600:{items:3,nav:false}, 1000:{items:4, nav:false}}" style="margin-top:500px; width:100%;">
+          <carousel dots :responsive="{0:{items:1,nav:false},600:{items:3,nav:false}, 1000:{items:4, nav:false}}" style="margin-top:500px; width:100%;">
             <v-card dark color="#D8DADE" style="border-radius: 3px; min-height:240px;" class="ma-1">
               <v-card-text class="text-xs-center"><h2 style="color: #FFFFFF; position:absolute; bottom:20px; right:0; left:0;">Admission</h2></v-card-text>
             </v-card>
