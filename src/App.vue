@@ -26,10 +26,12 @@ export default {
 </script>
 
 <style>
-  #app{
-    font-family: 'Lato', sans-serif;
-    
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
+
   html {
     scroll-behavior: smooth;
   }

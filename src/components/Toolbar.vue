@@ -7,11 +7,11 @@
     <v-spacer></v-spacer>
     <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer" style="color:#D8DADE;"></v-toolbar-side-icon>
     <v-toolbar-items class="hidden-sm-and-down">
-      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3>Lorem</h3></v-btn>
-      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3>Ipsum</h3></v-btn>
-      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3>Dolor</h3></v-btn>
-      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3>Sit</h3></v-btn>
-      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3>Amet</h3></v-btn>
+      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3 style="font-size: 16px; line-height: 22px; color: #D8DADE;">Lorem</h3></v-btn>
+      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3 style="font-size: 16px; line-height: 22px; color: #D8DADE;">Ipsum</h3></v-btn>
+      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3 style="font-size: 16px; line-height: 22px; color: #D8DADE;">Dolor</h3></v-btn>
+      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3 style="font-size: 16px; line-height: 22px; color: #D8DADE;">Sit</h3></v-btn>
+      <v-btn flat style="color: #D8DADE; text-transform:capitalize;"><h3 style="font-size: 16px; line-height: 22px; color: #D8DADE;">Amet</h3></v-btn>
     </v-toolbar-items>
   </v-toolbar>
   <v-navigation-drawer dark style="box-shadow: 0px 1px 0px #121416; position:fixed; background:#191C21;" class="hidden-md-and-up" temporary v-model="drawer">
