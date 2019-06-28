@@ -1,6 +1,6 @@
 <template>
 <v-container>
-  <v-toolbar app dark color="#191C21" style="box-shadow: 0px 1px 0px #121416;" dense>
+  <v-toolbar app dark color="#191C21" dense>
     <router-link to="/">
       <img src="../assets/KFI4.png" style="height:30px;">
     </router-link>
